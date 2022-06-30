@@ -1,0 +1,20 @@
+.cusfooterbg{
+    height: 30rem;
+    position: relative;
+    filter : grayscale(0%);
+    top:400px;
+    z-index: -1;
+}
+
+.footer-content{
+    color: black;
+}
+
+.footer-line{
+    width: 22rem;
+}
+
+.footer-socials{
+   margin-left: 4rem;
+   padding-top: 2rem;
+}

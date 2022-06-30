@@ -1,0 +1,113 @@
+.welcome
+{
+    margin-left: 26rem;
+    margin-top: 50rem;
+    font-size: 3rem;
+    font-family: futura;
+    font-weight: bold;
+}
+
+.gridmenu{
+    margin-left: 3.2rem;
+}
+
+.secondcol{
+    position: relative;
+    top: 0px;
+}
+
+@media screen and (min-width: 360px) and (orientation: portrait){
+.welcome
+{
+    margin-left: 3rem;
+    margin-top: 20rem;
+    font-size: 1.4rem;
+    font-family: futura;
+}
+
+.gridmenu{
+    margin-left: 3.2rem;
+}
+
+.secondcol{
+    position:relative;
+    top: 40px;
+}
+
+.thirdcol{
+    position: relative;
+    top:80px;
+}
+    
+    }
+    
+    @media screen and (min-width: 414px) and (orientation: portrait){
+        .welcome
+        {
+            margin-left: 4rem;
+    margin-top: 20rem;
+    font-size: 1.4rem;
+    font-family: futura;
+    position: relative;
+    top: -10px;
+        }   
+
+        .gridmenu{
+            margin-left: 3.2rem;
+            position: relative;
+            top: -20px;
+        }
+    
+      }
+
+      @media screen and (min-width: 412px) and (orientation: portrait){
+        .welcome
+        {
+            margin-left: 3.9rem;
+    margin-top: 20rem;
+    font-size: 1.4rem;
+    font-family: futura;
+        }   
+    
+        .gridmenu{
+            margin-left: 3.2rem;
+        }
+      }
+    
+    
+    @media screen and (min-width: 820px) and (orientation: portrait){
+        .welcome
+        {
+            margin-left: 4rem;
+            margin-top: 20rem;
+            font-size: 1.4rem;
+            font-family: futura;
+        }  
+    
+        .gridmenu{
+            margin-left: 3.2rem;
+        }
+    }
+    
+       @media screen and (min-width: 768px) and (orientation: portrait){
+        .welcome
+        {
+            margin-left: 7rem;
+            margin-top: 28rem;
+            font-size: 2.4rem;
+            font-family: futura;
+        }  
+    
+        .gridmenu{
+            margin-left: 3.2rem;
+        }
+
+        .thirdcol{
+            position:relative;
+            top: 40px;
+        }
+        .secondcol{
+            position: relative;
+            top: 0px;
+        }
+    }

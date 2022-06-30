@@ -1,0 +1,29 @@
+ .grid{
+    margin-top: 3rem;
+}
+
+
+.page-heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-family: futura;
+    color: bisque;
+    margin-left: 10rem;
+}
+
+
+.heading-word{
+    position: relative;
+    left: 2rem;
+}
+
+
+
+.heading-line{
+  width: 14rem;
+  position: relative;
+  top: 2.3rem;
+  left: -8.3rem;
+
+} 

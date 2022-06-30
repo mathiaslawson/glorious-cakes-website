@@ -1,23 +1,33 @@
 import React from 'react'
-import { Container, Stack } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import { Nav, Navbar  } from 'react-bootstrap'
-import Background from './Background'
+import { Link } from 'react-router-dom'
 
 
 
 export default function header() {
   return (
     <>
-       <Navbar bg="warning" variant="dark">
+    <div>
+        <Navbar bg="warning" variant="dark" >
     <Container>
-    <Navbar.Brand href="#home">GloriousCakes</Navbar.Brand>
+      <Link to="/home" style={{textDecoration: "none"}}>
+      <Navbar.Brand href="#home">GloriousCakes</Navbar.Brand>
+      </Link>
     <Nav className="me-auto">
-      <Nav.Link href="#home">Home</Nav.Link>
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
+<Link to="/home" style={{textDecoration: "none"}}>
+<Nav.Link href="#home">Home</Nav.Link>
+</Link>    
+      <Link to="/gallery" style={{textDecoration: "none"}}>
+      <Nav.Link href="#features">Gallery</Nav.Link>
+      </Link>
+      <Nav.Link href="#pricing">About</Nav.Link>
     </Nav>
     </Container>
   </Navbar>
+      
+    </div>
+     
 
   
     </>

@@ -1,0 +1,123 @@
+hr{
+     transform: translate(1%, 50%); 
+}
+
+.custitle{
+position: absolute;
+top: 15rem;
+left: 57rem;
+color: rbg(53, 57, 53);
+z-index: 1;
+font-size: 5rem;
+font-family: futura;
+font-weight: bold;
+}
+
+.cusbg{
+height: 850px;;
+opacity: 0.9;
+ }
+
+ .cusbut :hover{
+   background-color: green !important;
+   color : red !important;
+}
+
+ .cusbut{
+   margin-left: 12rem !important;
+   font: 1rem light, Arial !important;
+   text-decoration: none;
+   color : beige;
+   border-color: black !important;
+   border-radius: 5px;
+   padding: 1rem !important;
+   border-radius: 3px !important;
+   background-color: rgb(37, 37, 37) !important;
+  
+ }
+
+
+
+
+
+ 
+@media screen and (min-width: 360px) and (orientation: portrait){
+.cusbg{
+   height: 300px;
+} 
+.custitle{
+   position: absolute;
+   top: 7rem;
+   left: 13rem;
+    color: rbg(53, 57, 52);
+   z-index: 1;
+   font-size: 1.5rem;
+   font-family: futura;
+}
+
+.cusbut{
+   transform: translate(5%, 0%);
+ }
+
+}
+
+@media screen and (min-width: 414px) and (orientation: portrait){
+   .cusbg{
+      height: 300px;
+   } 
+   .custitle{
+      position: absolute;
+      top: 7rem;
+      left: 13rem;
+       color: rbg(53, 57, 52);
+      z-index: 1;
+     color: black;
+      font-size: 1.5rem;
+      font-family: futura;
+  }
+
+  .cusbut{
+      transform: translate(10%, 0%);
+    }
+
+  }
+
+
+@media screen and (min-width: 820px) and (orientation: portrait){
+   .cusbg{
+      height: 420px; 
+   } 
+
+   .custitle{
+       position: absolute;
+       top: 8rem;
+       left: 28rem;
+       color: rbg(53, 57, 53);
+       z-index: 1;
+       font-size: 3rem;
+   } 
+    
+   .cusbut{
+      margin-left: 8rem !important;
+    }
+
+}
+
+   @media screen and (min-width: 768px) and (orientation: portrait){
+       .cusbg{
+          height: 420px; 
+       } 
+
+       .custitle{
+           position: absolute;
+           top: 8rem;
+           left: 28rem;
+           color: rbg(53, 57, 53);
+           z-index: 1;
+           font-size: 3rem;
+       } }
+
+      
+
+   
+            
