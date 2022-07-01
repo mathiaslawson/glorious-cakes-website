@@ -5,6 +5,7 @@ import Maing from '../gallery-page/Maing';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './Footer';
 import { Route, Routes } from 'react-router-dom';
+import About from '../about-page/About';
 // import "./App.css"
 
 
@@ -16,9 +17,10 @@ function App() {
   <Heading />
  
   <Routes> 
-<Route path="/home" exact element={ <Into />}></Route>
+<Route path="/" exact element={ <Into />}></Route>
  <Route path="/gallery" element={<Maing />} />
-
+<Route path="/about" element={ <About />} />
+ 
 </Routes>
 
 <Footer />

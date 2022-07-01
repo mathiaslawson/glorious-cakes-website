@@ -1,0 +1,24 @@
+.about-container{
+   background-color: rgb(252, 208, 65);
+   position: relative;
+   top:13rem;
+  transform: translate(20%, 0%);
+   width: 70%;
+   padding: 3rem;
+}
+
+.about-heading{
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.about-footer{
+    width:17rem;
+}
+
+.about-writings{
+    font-size: 1.2rem;
+    margin-left: -4rem;
+}
