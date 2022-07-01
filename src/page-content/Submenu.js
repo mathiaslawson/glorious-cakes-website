@@ -56,7 +56,14 @@ export default function Submenu() {
           Some quick example text to build on the card title and make up the
           bulk of the card's content.
         </Card.Text>
-        <Button variant="primary">Buy</Button>
+      
+
+        <a href="https://api.whatsapp.com/send?phone=+233559690060&text=Hi There Glorious Cakes, I wish to order a cake." target="_blank">
+          <Button variant="primary">
+            Buy
+        </Button>
+        </a>
+
       </Card.Body>
     </Card>
         </Col>
@@ -100,7 +107,11 @@ export default function Submenu() {
         6" & 8"
           </strong> 
         </Card.Text>
-        <Button variant="primary">Buy</Button>
+        <a href="https://api.whatsapp.com/send?phone=+233559690060&text=Hi There Glorious Cakes, I wish to order a cake." target="_blank">
+          <Button variant="primary">
+            Buy
+        </Button>
+        </a>
       </Card.Body>
  </Card>
    
@@ -120,7 +131,11 @@ export default function Submenu() {
         6" (8" dummy) 10"       
           </pre></strong> 
         </Card.Text>
-        <Button variant="primary">Buy</Button>
+        <a href="https://api.whatsapp.com/send?phone=+233559690060&text=Hi There Glorious Cakes, I wish to order a cake." target="_blank">
+          <Button variant="primary">
+            Buy
+        </Button>
+        </a>
       </Card.Body>
       </Card>
    

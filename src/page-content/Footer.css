@@ -8,13 +8,33 @@
 
 .footer-content{
     color: black;
+  
 }
 
 .footer-line{
-    width: 22rem;
+    width: 24rem;
+}
+
+.social-section{
+    margin-left: 10rem;
 }
 
 .footer-socials{
-   margin-left: 4rem;
-   padding-top: 2rem;
+   margin-left: 7rem;
+   padding-top: 1rem;
+}
+
+.footer-icons{
+    list-style-type: none;
+    gap:0.3rem;
+    font-size: 2rem;
+    display: flex;
+}
+
+.what{
+    color: #4d924b;
+}
+
+.insta{
+   color: rgb(255, 102, 46);
 }

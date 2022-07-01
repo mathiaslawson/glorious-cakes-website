@@ -2,6 +2,8 @@ import React from 'react'
 import "./Footer.css"
 import { Row, Container, Col} from "react-bootstrap"
 import{ Form , Button, InputGroup, FormControl, FloatingLabel, ButtonToolbar, ButtonGroup} from "react-bootstrap"
+import { AiFillFacebook, AiOutlineWhatsApp, AiOutlineInstagram } from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 export default function Footer() {
   return (
     <>
@@ -47,27 +49,47 @@ export default function Footer() {
       placeholder="Leave a comment here"
       style={{ height: '100px' }}
     />
+<br></br>
+    <Button>Submit</Button>
   </FloatingLabel>
   
  
               </Col>
 
-
+      
               <Col>
+
+<div className='social-section'>
+<Container>
+       <h3>
+       Connect with our social media
+        <hr className='footer-line'></hr>
+       </h3>
+     </Container>
               <div className='footer-socials'>
 
-                   
-              <ButtonToolbar aria-label="Toolbar with button groups">
-  <ButtonGroup className="me-2" aria-label="First group">
-    <Button>1</Button> <Button>2</Button> <Button>3</Button> <Button>4</Button>
-  </ButtonGroup>
-  <ButtonGroup className="me-2" aria-label="Second group">
-    <Button>5</Button> <Button>6</Button> <Button>7</Button>
-  </ButtonGroup>
-</ButtonToolbar>
+              <ul className='footer-icons'>
+                  <li>
+                   <a href='https://www.facebook.com'>
+                   <AiFillFacebook />
+                   </a>
+                 
+                  </li>
+                  <li>
+                  <a href="https://api.whatsapp.com/send?phone=+233559690060&text=Hi There Glorious Cakes, I wish to order a cake." target="_blank">
+                    <AiOutlineWhatsApp className='what'/></a>
+                  </li>
+                  <li> <a href='https://www.instagram.com'>
+                    <AiOutlineInstagram className='insta'/></a>
+                  </li>
+                 
+                </ul>          
+         
 
               </div>
           
+</div>
+             
 
               </Col>
           </Row>
