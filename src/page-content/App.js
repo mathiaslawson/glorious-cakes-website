@@ -20,7 +20,6 @@ function App() {
 <Route path="/" exact element={ <Into />}></Route>
  <Route path="/gallery" element={<Maing />} />
 <Route path="/about" element={ <About />} />
- 
 </Routes>
 
 <Footer />

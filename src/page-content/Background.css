@@ -1,5 +1,5 @@
 hr{
-     transform: translate(1%, 50%); 
+     
 }
 
 .custitle{
@@ -14,7 +14,7 @@ font-weight: bold;
 }
 
 .cusbg{
-height: 850px;;
+height: 850px;
 opacity: 0.9;
  }
 
@@ -38,82 +38,203 @@ opacity: 0.9;
 
 
 
-@media screen and (min-width: 360px) and (orientation: portrait){
-.cusbg{
-   height: 300px;
-} 
-.custitle{
-   position: absolute;
-   top: 7rem;
-   left: 13rem;
-    color: rbg(53, 57, 52);
-   z-index: 1;
-   font-size: 1.5rem;
-   font-family: futura;
-}
-
-.cusbut{
-   transform: translate(5%, 0%);
- }
-
-}
-
-@media screen and (min-width: 414px) and (orientation: portrait){
+ @media screen and (min-width: 360px) and (orientation: portrait){
    .cusbg{
       height: 300px;
    } 
    .custitle{
       position: absolute;
-      top: 7rem;
-      left: 13rem;
-       color: rbg(53, 57, 52);
+      left: 12rem !important;
+      top: 8rem !important;
+      color: rbg(53, 57, 52);
       z-index: 1;
-     color: black;
-      font-size: 1.5rem;
-      font-family: futura;
+      font-size: 1.4rem !important;
+   }
+   
+   .cushori{
+      margin-left: 2.8rem !important;
+      width: 4rem;
+   }
+   
+   .cusbut{
+     margin-left: -0px !important;
+     width: 10rem !important;
+     font-size: 0.7rem !important;
+    }
+   
+    
+   }
+
+
+
+@media screen and (min-width: 375px) and (orientation: portrait){
+.cusbg{
+   height: 300px;
+} 
+.custitle{
+   position: absolute;
+   left: 13rem !important;
+   top: 8rem !important;
+   color: rbg(53, 57, 52);
+   z-index: 1;
+   font-size: 1.4rem !important;
+}
+
+.cushori{
+   margin-left: 2.8rem !important;
+   width: 4rem;
+}
+
+.cusbut{
+  margin-left: -3px !important;
+  width: 10rem !important;
+  font-size: 0.7rem !important;
+ }
+
+ 
+}
+
+@media screen and (min-width: 414px) and (orientation: portrait){
+   .custitle{
+      position: absolute;
+      left: 14rem !important;
+      font-size: 1.4rem !important;
   }
 
   .cusbut{
-      transform: translate(10%, 0%);
+   margin-left: 0px !important;
+   width: 10rem !important;
+   font-size: 0.7rem !important;
     }
 
   }
 
+@media screen and (min-width: 390px) and (orientation: portrait){
+   .custitle{
+      position: absolute;
+      left: 14rem !important;
+      font-size: 1.4rem !important;
+  }
 
-@media screen and (min-width: 820px) and (orientation: portrait){
-   .cusbg{
-      height: 420px; 
-   } 
+  .cusbut{
+   margin-left: -2px !important;
+   width: 10rem !important;
+   font-size: 0.7rem !important;
+    }
+
+  }
+
+@media screen and (min-width: 540px) and (orientation: portrait){
+   
+   .cushori{
+      width: 10rem;
+      margin-left: 1.4rem !important;
+   }
 
    .custitle{
-       position: absolute;
-       top: 8rem;
-       left: 28rem;
-       color: rbg(53, 57, 53);
-       z-index: 1;
-       font-size: 3rem;
+      position: absolute;
+      left: 18rem !important;
+      font-size: 2rem !important;
    } 
     
    .cusbut{
-      margin-left: 8rem !important;
+      margin-left: 0.7rem !important;
+      width: 12rem !important;
+    }
+
+   }
+
+   @media screen and (min-width: 698px) and (orientation: portrait){
+   
+      .cushori{
+         width: 10rem;
+         margin-left: 4rem !important;
+      }
+   
+      .custitle{
+         position: absolute;
+         left: 25rem !important;
+         font-size: 2.7rem !important;
+      } 
+       
+      .cusbut{
+         margin-left: 1.9rem !important;
+         width: 14rem !important;
+         font-size: 1.3rem !important;
+       }
+
+      }
+
+  
+
+  
+@media screen and (min-width: 820px) and (orientation: portrait){
+
+   .cushori{
+      width: 10rem;
+      margin-left: 4rem !important;
+   }
+
+   .custitle{
+      position: absolute;
+      left: 30rem !important;
+      font-size: 2.8rem !important;
+   } 
+    
+   .cusbut{
+      margin-left: 32rem !important;
+      width: 14rem !important;
     }
 
 }
 
    @media screen and (min-width: 768px) and (orientation: portrait){
-       .cusbg{
-          height: 420px; 
-       } 
+   
+      .cushori{
+         width: 10rem;
+         margin-left: 4rem !important;
+      }
+   
+      .custitle{
+         position: absolute;
+         left: 27rem !important;
+         font-size: 2.7rem !important;
+      } 
+       
+      .cusbut{
+         margin-left: 2rem !important;
+         width: 14rem !important;
+         font-size: 1.3rem !important;
+       }
 
-       .custitle{
-           position: absolute;
-           top: 8rem;
-           left: 28rem;
-           color: rbg(53, 57, 53);
-           z-index: 1;
-           font-size: 3rem;
-       } }
+      }
 
+      
+      @media screen and (min-width: 912px) and (orientation: portrait){
+   
+         .cushori{
+            width: 10rem;
+            margin-left: 4rem !important;
+         }
+      
+         .custitle{
+            position: absolute;
+            left: 33rem !important;
+            font-size: 2.7rem !important;
+         } 
+          
+         .cusbut{
+            margin-left: 2rem !important;
+            width: 14rem !important;
+            font-size: 1.3rem !important;
+          }
+   
+         }
+
+        
+        
+        
+        
       
 
    

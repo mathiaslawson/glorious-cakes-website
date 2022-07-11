@@ -5,11 +5,10 @@ import "./Background.css"
 export default function Background() {
   return (
    <> 
-
              <Container>
                  <Row>
-                     <Col> <h2 className='custitle' style={{color: "black"}}>Glorious Cakes
-                     <hr></hr>
+                     <Col> <h2 className='custitle' >Glorious Cakes
+                     <hr className='cushori'></hr>
                      <Button variant="dark" className="cusbut"  href="#" >Contact Us Now</Button>{' '}
                      </h2>                     
                      

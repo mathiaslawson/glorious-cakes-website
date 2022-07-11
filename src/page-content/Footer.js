@@ -61,7 +61,7 @@ export default function Footer() {
 
 <div className='social-section'>
 <Container>
-       <h3>
+       <h3 style={{fontSize: '1.2rem'}}>
        Connect with our social media
         <hr className='footer-line'></hr>
        </h3>

@@ -1,9 +1,11 @@
 .cusfooterbg{
     height: 30rem;
     position: relative;
-    filter : grayscale(0%);
+    filter : blur(2px) brightness(100%);
+    opacity: 0.9;
     top:400px;
     z-index: -1;
+    background-color: orange;
 }
 
 .footer-content{
@@ -38,3 +40,103 @@
 .insta{
    color: rgb(255, 102, 46);
 }
+
+@media screen and (min-width: 360px) and (orientation: portrait){
+    .cusfooterbg{
+        height: 40rem;
+        position: relative;
+        filter : grayscale(0%);
+        top:400px;
+        z-index: -1;
+    }
+    
+    .footer-content{
+        color: black;
+        margin-top: -12rem;
+      
+    }
+    
+    .footer-line{
+        width: 20rem;
+    }
+    
+    .social-section{
+        margin-top: 2rem;
+        margin-left: -1rem;
+    }
+    
+    .footer-socials{
+       margin-left: 6rem;
+       padding-top: 1rem;
+    }
+    
+    .footer-icons{
+        list-style-type: none;
+        gap:0.8rem;
+        font-size: 1.8rem;
+        display: flex;
+    }
+
+}
+@media screen and (min-width: 375px) and (orientation: potrait){
+
+    .cusfooterbg{
+        height: 90rem;
+        position: relative;
+        filter : grayscale(0%);
+        top:400px;
+        z-index: -1;
+    }
+    
+    .footer-content{
+        color: black;
+      
+    }
+    
+    .footer-line{
+        width: 2rem;
+    }
+    
+    .social-section{
+        margin-left: 10rem;
+    }
+    
+    .footer-socials{
+       margin-left: 92rem;
+       padding-top: 1rem;
+    }
+    
+    .footer-icons{
+        list-style-type: none;
+        gap:0.3rem;
+        font-size: 4rem;
+        display: flex;
+    }
+
+   
+}
+@media screen and (min-width: 414px) and (orientation: potrait){
+   
+}
+@media screen and (min-width: 390px) and (orientation: potrait){
+   
+}
+
+@media screen and (min-width: 540px) and (orientation: potrait){
+   
+}
+@media screen and (min-width: 698px) and (orientation: potrait){
+   
+}
+@media screen and (min-width: 820px) and (orientation: potrait){
+   
+}
+@media screen and (min-width: 768px) and (orientation: potrait){
+   
+}
+
+
+@media screen and (min-width: 912px) and (orientation: potrait){
+   
+}
+
